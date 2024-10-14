@@ -1,5 +1,5 @@
 # DevSecOps
-Netflix application deployment
+This project involves deploying a Netflix-like application using advanced CI/CD practices to achieve efficient integration, delivery, and monitoring. The pipeline leverages key technologies, including Jenkins for automation, Prometheus for monitoring, and Grafana for visualization, ensuring a robust and scalable architecture. By implementing GitOps with ArgoCD, the application maintains alignment with its source code, enabling seamless updates and rollbacks. Overall, this deployment exemplifies a modern, reliable approach to application management.
 
 ![DevSecOps](https://github.com/ShantanuKokate/DevSecOps/blob/main/public/assets/DevSecOps.png?raw=true)
 
