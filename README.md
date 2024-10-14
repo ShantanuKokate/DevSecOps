@@ -13,8 +13,9 @@ Netflix application deployment
 
 • Provision an EC2 instance on AWS with Ubuntu 22.04.  
 • Connect to the instance using SSH.
+
 ### Step 2: Clone the Code:
 
-Update all the packages and then clone the code.
+• Update all the packages and then clone the code.  
 
-Clone your application's code repository onto the EC2 instance:
+• Clone your application's code repository onto the EC2 instance:
