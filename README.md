@@ -33,4 +33,17 @@ sudo usermod -aG docker $USER  # Replace with your system's username, e.g., 'ubu
 newgrp docker  
 sudo chmod 777 /var/run/docker.sock  
 ```
+### Build and Run Your Application Using Docker Containers:
+
+• Build the Docker image for your application and run the Docker container:  
+```bash
+docker build -t netflix .  
+docker run -d --name netflix -p 8081:80 netflix:latest
+
+#to delete
+docker stop <containerid>
+docker rmi -f netflix
+```
+
+
 
